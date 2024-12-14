@@ -66,7 +66,7 @@ BGM_PATH = 'music/bg.mp3'  # 设置背景音乐路径
 # 字体路径
 FONT_PATH = 'font/STXINGKAI.ttf'  # 设置字体路径
 # 背景图片路径
-BACKGROUND_PATH = 'img/bg.png'  # 设置背景图片路径
+BACKGROUND_PATH = 'img/bg.jpg'  # 设置背景图片路径
 # ICON路径
 ICON_IMAGE_PATH = 'img/heart.png'  # 设置图标路径
 # biu.jpg路径
@@ -257,7 +257,7 @@ def main():
 
   # 加载biu.jpg图片
   biu_image = pygame.image.load(BIU_IMAGE_PATH)  # 加载biu图片
-  biu_image = pygame.transform.scale(biu_image, (180, 180))  # 适当缩放
+  biu_image = pygame.transform.scale(biu_image, (143, 91))  # 适当缩放
 
   # 实例化按钮
   button_yes = Button(x=35, y=SCREENSIZE[1] - 80, width=120, height=35,

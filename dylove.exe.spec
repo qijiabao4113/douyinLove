@@ -6,7 +6,7 @@ a = Analysis(
     pathex=[],
     binaries=[],
     datas=[('font/STXINGKAI.ttf', 'font'),
-       ('img/bg.png', 'img'),
+       ('img/bg.jpg', 'img'),
        ('img/biu.png', 'img'),
        ('img/heart.png', 'img'),
        ('music/bg.mp3', 'music'),
